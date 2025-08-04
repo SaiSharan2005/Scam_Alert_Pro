@@ -1,10 +1,10 @@
 {
     "version": 2,
     "builds": [
-      { "src": "Scam_Alert_Pro/Scam_Backend/api/index.js", "use": "@vercel/node" }
+      { "src": "Scam_Backend/api/index.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "Scam_Alert_Pro/Scam_Backend/api/index.js" }
+      { "src": "/(.*)", "dest": "Scam_Backend/api/index.js" }
     ]
   }
   
