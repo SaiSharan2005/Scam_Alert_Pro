@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*.local
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Next.js/React Cache
+.next/
+.cache/
+
+# Misc
+*.log
+*.tgz
+package-lock.json
+
+# Optional: Ignore public assets (if dynamically generated)
+# /public/assets/
+
+# Ignore large video or archive files
+*.mp4
+*.zip
+
+# Ignore uploads
+uploads/
