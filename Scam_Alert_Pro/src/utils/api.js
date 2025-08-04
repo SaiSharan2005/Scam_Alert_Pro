@@ -1,7 +1,7 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-export const BASE_URL = "http://192.168.29.74:5000";
+export const BASE_URL = "https://scam-alert-pro.vercel.app";
 
 // Auth API instance (e.g. /auth/login, /auth/signup)
 export const authApi = axios.create({
